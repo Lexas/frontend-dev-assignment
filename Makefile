@@ -10,10 +10,9 @@ STYLUS = stylus
 
 build:
 	$(STYLUS) $(styles-dir) --include-css -o $(css-dir) -U
-	jshint $(jshint-files) -r
-	duo src/js/*.js 
+	jshint $(jshint-files)
 set:
-	bower-installer
+	bower-installer -r
 deps:
 	sudo npm install -g bower-installer
 	sudo npm install -g duo

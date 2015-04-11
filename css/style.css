@@ -1,0 +1,23 @@
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif");
+body {
+  font-family: 'Droid Serif', serif;
+}
+#index li {
+  font-size: 0.9rem;
+  margin-bottom: 0.2em;
+}
+@media screen and (max-width: 44.99em) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 45em) and (max-width: 71.99em) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 72em) {
+  body {
+    width: 100%;
+  }
+}

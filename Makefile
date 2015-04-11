@@ -1,13 +1,15 @@
 
 
-jshint-files = CURDIR/src/js/*.js
+jshint-files = $(CURDIR)/js/*.js
 
-css-dir = CURDIR/css
-styles-dir = $(frontend)/styles
+css-dir = $(CURDIR)/css
+styles-dir = $(CURDIR)/style
 
 JSHINT = jshint
 STYLUS = stylus
 
+style:
+	$(STYLUS) $(styles-dir) --include-css -o $(css-dir) -U -w
 build:
 	$(STYLUS) $(styles-dir) --include-css -o $(css-dir) -U
 	jshint $(jshint-files)
@@ -18,6 +20,6 @@ deps:
 	sudo npm install -g duo
 	sudo npm install -g jshint
 
-.PHONY: deps set build
+.PHONY: deps set build style
 
 

@@ -1,11 +1,10 @@
-
 {
-	"name": "the-test",
-	"version": "1.0.0",
-	"dependencies": {
-		"MathJax": "2.5.x",
-		"jquery": "latest",
-		"requirejs": "latest"
-	}
+  "name": "the-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "MathJax": "2.5.x",
+    "jquery": "latest",
+    "requirejs": "latest",
+    "enquire": "~2.1.2"
+  }
 }
-

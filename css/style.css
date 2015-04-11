@@ -1,14 +1,114 @@
 @import url("http://fonts.googleapis.com/css?family=Droid+Serif");
 body {
+  background-color: #fbfbfb;
+  color: #151612;
   font-family: 'Droid Serif', serif;
+  margin: 0;
+}
+figure {
+  margin: 2rem 0;
+}
+figcaption {
+  color: #353730;
+  font-size: 0.9rem;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+span:empty {
+  display: none;
+}
+.section {
+  margin: auto;
+  max-width: 80em;
+  padding: 0 1.5rem;
+}
+.section h1 {
+  font-size: 2rem;
+  display: block;
+  border-bottom: solid 2px #515151;
+  margin: 2em 0 0 0;
+}
+.section h2 {
+  font-size: 1.5rem;
+}
+.section ol li,
+.section ul li {
+  margin: 0 0 0 1em;
+  padding: 0 0 0 1em;
+}
+.note {
+  color: #774c14;
+  background-color: #e4de64;
+  border-radius: 0.5em;
+  position: relative;
+  padding: 0.5rem 1.5rem;
+  max-width: 75rem;
+  margin: 2em 0;
+}
+.note:before {
+  color: #cbc444;
+  content: 'NOTE';
+  font-weight: bold;
+  position: absolute;
+  top: -0.9em;
+  z-index: -1;
+}
+.note.visit {
+  background-color: #e0c2e6;
+  color: #5f3f60;
+}
+.note.visit:before {
+  color: #d0b1d7;
+  content: 'VISIT';
+}
+.note.tip {
+  background-color: #b7e0e7;
+  color: #2b637e;
+}
+.note.tip:before {
+  color: #6cb0bc;
+  content: 'TIP';
+}
+.question,
+.exercises {
+  border-radius: 0.5em;
+  position: relative;
+  padding: 0.5rem 1.5rem;
+  max-width: 75rem;
+  margin: 2em 0;
+  background-color: #d8d8d8;
+}
+.question:before,
+.exercises:before {
+  font-weight: bold;
+  position: absolute;
+  top: -0.9em;
+  z-index: -1;
+  color: #c2c2c2;
+  content: 'SOLVE';
+}
+.workstep {
+  margin: 0 0 0 1em;
+}
+.workstep h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+#index {
+  background-color: #ebefe9;
+  display: inline-block;
+  margin-left: 4rem;
+  padding: 1.5rem;
 }
 #index li {
   font-size: 0.9rem;
   margin-bottom: 0.2em;
 }
 @media screen and (max-width: 44.99em) {
-  body {
-    width: 100%;
+  .section {
+    padding: 0.7rem;
   }
 }
 @media screen and (min-width: 45em) and (max-width: 71.99em) {

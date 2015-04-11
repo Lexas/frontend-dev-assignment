@@ -71,11 +71,11 @@ requirejs(['enquire', 'jquery', 'mathjax'], function(nq, $, mj){
 			}, 
 
 			setup : function() { //execute once, if screen is not too small 
-				var $titles = $('.title');
+				var $titles = $('h1.title');
 				levels.push($titles.filter('h1'));
-				levels.push($titles.filter('h2'));
+				//levels.push($titles.filter('h2'));
 
-				var $index = $('<section id="index"></section>');
+				var $index = $('<section id="index"><h1>Index</h1></section>');
 				var $ol = traverseLevel($titles);
 				$index.append($ol);
 					

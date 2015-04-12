@@ -8,6 +8,7 @@ styles-dir = $(CURDIR)/style
 JSHINT = jshint
 STYLUS = stylus
 
+all: deps set build
 style:
 	$(STYLUS) $(styles-dir) --include-css -o $(css-dir) -U -w
 build:

@@ -1,0 +1,169 @@
+/*************************************************************
+ *
+ *  MathJax/jax/output/SVG/fonts/Latin-Modern/fontdata.js
+ *  
+ *  Initializes the SVG OutputJax to use the Latin-Modern fonts
+
+ *  Copyright (c) 2013-2015 The MathJax Consortium
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+(function(e,t,n,r){var i="2.5.0",s="LatinModernMathJax_Alphabets",o="LatinModernMathJax_Arrows"
+,u="LatinModernMathJax_DoubleStruck",a="LatinModernMathJax_Fraktur",f="LatinModernMathJax_Latin"
+,l="LatinModernMathJax_Main",c="LatinModernMathJax_Marks",h="LatinModernMathJax_Misc"
+,p="LatinModernMathJax_Monospace",d="LatinModernMathJax_NonUnicode",v="LatinModernMathJax_Normal"
+,m="LatinModernMathJax_Operators",g="LatinModernMathJax_SansSerif",y="LatinModernMathJax_Script"
+,b="LatinModernMathJax_Shapes",w="LatinModernMathJax_Size1",E="LatinModernMathJax_Size2"
+,S="LatinModernMathJax_Size3",x="LatinModernMathJax_Size4",T="LatinModernMathJax_Size5"
+,N="LatinModernMathJax_Size6",C="LatinModernMathJax_Size7",k="LatinModernMathJax_Symbols"
+,L="LatinModernMathJax_Variants",A="H",O="V",M={load:"extra",dir:A},_={load:"extra"
+,dir:O};e.Augment({FONTDATA:{version:i,baselineskip:1200,lineH:800,lineD:200,FONTS
+:{LatinModernMathJax_Alphabets:"Alphabets/Regular/Main.js",LatinModernMathJax_Arrows
+:"Arrows/Regular/Main.js",LatinModernMathJax_DoubleStruck:"DoubleStruck/Regular/Main.js"
+,LatinModernMathJax_Fraktur:"Fraktur/Regular/Main.js",LatinModernMathJax_Latin:"Latin/Regular/Main.js"
+,LatinModernMathJax_Main:"Main/Regular/Main.js",LatinModernMathJax_Marks:"Marks/Regular/Main.js"
+,LatinModernMathJax_Misc:"Misc/Regular/Main.js",LatinModernMathJax_Monospace:"Monospace/Regular/Main.js"
+,LatinModernMathJax_NonUnicode:"NonUnicode/Regular/Main.js",LatinModernMathJax_Normal
+:"Normal/Regular/Main.js",LatinModernMathJax_Operators:"Operators/Regular/Main.js"
+,LatinModernMathJax_SansSerif:"SansSerif/Regular/Main.js",LatinModernMathJax_Script
+:"Script/Regular/Main.js",LatinModernMathJax_Shapes:"Shapes/Regular/Main.js",LatinModernMathJax_Size1
+:"Size1/Regular/Main.js",LatinModernMathJax_Size2:"Size2/Regular/Main.js",LatinModernMathJax_Size3
+:"Size3/Regular/Main.js",LatinModernMathJax_Size4:"Size4/Regular/Main.js",LatinModernMathJax_Size5
+:"Size5/Regular/Main.js",LatinModernMathJax_Size6:"Size6/Regular/Main.js",LatinModernMathJax_Size7
+:"Size7/Regular/Main.js",LatinModernMathJax_Symbols:"Symbols/Regular/Main.js",LatinModernMathJax_Variants
+:"Variants/Regular/Main.js"},VARIANT:{normal:{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w]
+},bold:{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w],bold:!0,offsetA:119808,offsetG:120488
+,offsetN:120782},italic:{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w],italic:!0,offsetA:119860
+,offsetG:120546,remap:{119893:8462}},"bold-italic":{fonts:[l,v,p,f,s,c,o,m,k,b,h,
+L,d,w],bold:!0,italic:!0,offsetA:119912,offsetG:120604},"double-struck":{fonts:[u
+],offsetA:120120,offsetN:120792,remap:{120122:8450,120127:8461,120133:8469,120135
+:8473,120136:8474,120137:8477,120145:8484}},fraktur:{fonts:[a],offsetA:120068,remap
+:{120070:8493,120075:8460,120076:8465,120085:8476,120093:8488}},"bold-fraktur":{fonts
+:[a],bold:!0,offsetA:120172},script:{fonts:[y],italic:!0,offsetA:119964,remap:{119965
+:8492,119968:8496,119969:8497,119971:8459,119972:8464,119975:8466,119976:8499,119981
+:8475,119994:8495,119996:8458,120004:8500}},"bold-script":{fonts:[y],bold:!0,italic
+:!0,offsetA:120016},"sans-serif":{fonts:[g],offsetA:120224,offsetN:120802},"bold-sans-serif"
+:{fonts:[g],bold:!0,offsetA:120276,offsetN:120812,offsetG:120662},"sans-serif-italic"
+:{fonts:[g],italic:!0,offsetA:120328},"sans-serif-bold-italic":{fonts:[g],bold:!0
+,italic:!0,offsetA:120380,offsetG:120720},monospace:{fonts:[p],offsetA:120432,offsetN
+:120822},"-Latin-Modern-variant":{fonts:[L,l,v,p,f,s,c,o,m,k,b,h,d,w]},"-tex-caligraphic"
+:{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w],italic:!0},"-tex-oldstyle":{fonts:[l,v,p,f,
+s,c,o,m,k,b,h,L,d,w]},"-tex-caligraphic-bold":{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w
+],italic:!0,bold:!0},"-tex-oldstyle-bold":{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w],bold
+:!0},"-tex-mathit":{fonts:[l,v,p,f,s,c,o,m,k,b,h,L,d,w],italic:!0,noIC:!0},"-largeOp"
+:{fonts:[w,l]},"-smallOp":{}},RANGES:[{name:"alpha",low:97,high:122,offset:"A",add
+:26},{name:"Alpha",low:65,high:90,offset:"A"},{name:"number",low:48,high:57,offset
+:"N"},{name:"greek",low:945,high:969,offset:"G",add:26},{name:"Greek",low:913,high
+:1014,offset:"G",remap:{1013:52,977:53,1008:54,981:55,1009:56,982:57,1012:17}}],RULECHAR
+:773,REMAP:{9666:9664,12296:10216,12297:10217,10072:8739,9656:9654,978:933,9652:9650
+,9653:9651,65079:9182,65080:9183,697:8242,9723:9633,9724:9632,9662:9660,8254:773,9663
+:9661},REMAPACCENT:{"~":"̃","→":"⃗","`":"̀","^":"̂","´":"́","′":"́","‵":"̀"},REMAPACCENTUNDER
+:{},DELIMITERS:{40:{dir:O,HW:[[996,l],[1094,w],[1194,E],[1444,S],[1792,x],[2092,T
+],[2392,N],[2990,C]],stretch:{bot:[9117,k],ext:[9116,k],top:[9115,k]}},41:{dir:O,
+HW:[[996,l],[1094,w],[1194,E],[1444,S],[1792,x],[2092,T],[2392,N],[2990,C]],stretch
+:{bot:[9120,k],ext:[9119,k],top:[9118,k]}},45:{alias:773,dir:A},47:{dir:O,HW:[[1e3
+,l],[1310,w],[1716,E],[1771,E,1.032],[2248,S],[2944,x],[3858,T],[5054,N],[6620,C]
+]},61:{dir:A,HW:[[666,l]],stretch:{left:[57344,C],rep:[57345,C],right:[57346,C]}}
+,91:{dir:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3
+,C]],stretch:{bot:[9123,k],ext:[9122,k],top:[9121,k]}},92:{dir:O,HW:[[1e3,l],[1310
+,w],[1716,E],[1771,E,1.032],[2248,S],[2944,x],[3858,T],[5054,N],[6620,C]]},93:{dir
+:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3,C]],stretch
+:{bot:[9126,k],ext:[9125,k],top:[9124,k]}},94:{alias:770,dir:A},95:{alias:818,dir
+:A},123:{dir:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],
+[3e3,C]],stretch:{bot:[9129,k],ext:[57347,C],mid:[9128,k],top:[9127,k]}},124:{dir
+:O,HW:[[1e3,l],[1202,w],[1444,E],[1734,S],[2084,x],[2502,T],[3004,N],[3606,C]],stretch
+:{bot:[57348,C],ext:[57349,C],top:[57350,C]}},125:{dir:O,HW:[[1e3,l],[1100,w],[1200
+,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3,C]],stretch:{bot:[9133,k],ext:[57351
+,C],mid:[9132,k],top:[9131,k]}},126:{alias:771,dir:A},175:{alias:818,dir:A},710:{
+alias:770,dir:A},713:{alias:773,dir:A},732:{alias:771,dir:A},770:{dir:A,HW:[[364,
+l],[644,w],[768,E],[919,S],[1100,x],[1320,T],[1581,N],[1896,C]]},771:{dir:A,HW:[[370
+,l],[652,w],[778,E],[931,S],[1115,x],[1335,T],[1599,N],[1915,C]]},773:{dir:A,HW:[
+[392,c],[568,w]],stretch:{left:[57595,C],rep:[57596,C],right:[57597,C]}},774:M,780
+:{dir:A,HW:[[364,l],[644,w],[768,E],[919,S],[1100,x],[1320,T],[1581,N],[1896,C]]}
+,785:M,812:M,813:M,814:M,815:M,816:M,818:{dir:A,HW:[[392,c],[568,w]],stretch:{left
+:[57589,C],rep:[57590,C],right:[57591,C]}},819:M,831:M,8213:{alias:773,dir:A},8214
+:{dir:O,HW:[[1e3,l],[1202,w],[1444,E],[1734,S],[2084,x],[2502,T],[3004,N],[3606,C
+]],stretch:{bot:[57642,C],ext:[57643,C],top:[57644,C]}},8215:{alias:773,dir:A},8254
+:{alias:773,dir:A},8260:{dir:O,HW:[[1e3,l],[1310,w],[1716,E],[2248,S],[2944,x],[3858
+,T],[5054,N],[6620,C]]},8400:M,8401:M,8406:M,8407:M,8417:M,8425:M,8428:M,8429:M,8430
+:M,8431:M,8592:{dir:A,HW:[[885,l],[1351,w]],stretch:{left:[57379,C],rep:[57380,C]
+,right:[57381,C]}},8593:{dir:O,HW:[[882,l],[1348,w]],stretch:{bot:[57385,C],ext:[57386
+,C],top:[57387,C]}},8594:{dir:A,HW:[[885,l],[1351,w]],stretch:{left:[57382,C],rep
+:[57383,C],right:[57384,C]}},8595:{dir:O,HW:[[882,l],[1348,w]],stretch:{bot:[57388
+,C],ext:[57389,C],top:[57390,C]}},8596:{dir:A,HW:[[884,l],[1330,w]],stretch:{left
+:[57399,C],rep:[57400,C],right:[57401,C]}},8597:{dir:O,HW:[[1014,l],[1014,w]],stretch
+:{bot:[57402,C],ext:[57403,C],top:[57404,C]}},8598:_,8599:_,8600:_,8601:_,8602:M,8603
+:M,8606:M,8607:_,8608:M,8609:_,8610:M,8611:M,8612:{dir:A,HW:[[865,o],[1331,w]],stretch
+:{left:[57427,C],rep:[57428,C],right:[57429,C]}},8613:_,8614:{dir:A,HW:[[865,l],[1331
+,w]],stretch:{left:[57430,C],rep:[57431,C],right:[57432,C]}},8615:_,8617:M,8618:M
+,8619:M,8620:M,8621:M,8622:M,8624:_,8625:_,8626:_,8627:_,8630:M,8631:M,8636:M,8637
+:M,8638:_,8639:_,8640:M,8641:M,8642:_,8643:_,8644:M,8645:_,8646:M,8647:M,8648:_,8649
+:M,8650:_,8651:M,8652:M,8653:M,8654:M,8655:M,8656:{dir:A,HW:[[879,l],[1345,w]],stretch
+:{left:[57511,C],rep:[57512,C],right:[57513,C]}},8657:{dir:O,HW:[[879,l],[1345,w]
+],stretch:{bot:[57517,C],ext:[57518,C],top:[57519,C]}},8658:{dir:A,HW:[[879,l],[1345
+,w]],stretch:{left:[57514,C],rep:[57515,C],right:[57516,C]}},8659:{dir:O,HW:[[879
+,l],[1345,w]],stretch:{bot:[57520,C],ext:[57521,C],top:[57522,C]}},8660:{dir:A,HW
+:[[956,l],[1422,w]],stretch:{left:[57523,C],rep:[57524,C],right:[57525,C]}},8661:
+{dir:O,HW:[[956,l],[1422,w]],stretch:{bot:[57526,C],ext:[57527,C],top:[57528,C]}}
+,8662:_,8663:_,8664:_,8665:_,8666:M,8667:M,8668:M,8669:M,8678:M,8679:_,8680:M,8681
+:_,8691:_,8693:_,8694:M,8719:_,8720:_,8721:_,8722:{dir:A,HW:[[666,l]],stretch:{left
+:[57639,C],rep:[57640,C],right:[57641,C]}},8725:{alias:8260,dir:O},8730:{dir:O,HW
+:[[1e3,l],[1200,w],[1800,E],[2400,S],[3e3,x]],stretch:{bot:[9143,k],ext:[57651,C]
+,top:[57652,C]}},8739:{dir:O,HW:[[1e3,l],[1202,w],[1444,E],[1734,S],[2084,x],[2502
+,T],[3004,N],[3606,C]],stretch:{bot:[57348,C],ext:[57349,C],top:[57350,C]}},8741:
+{dir:O,HW:[[1e3,l],[1202,w],[1444,E],[1734,S],[2084,x],[2502,T],[3004,N],[3606,C]
+],stretch:{bot:[57642,C],ext:[57643,C],top:[57644,C]}},8747:_,8748:_,8749:_,8750:
+_,8751:_,8752:_,8753:_,8754:_,8755:_,8801:M,8803:M,8866:_,8867:_,8868:_,8869:_,8896
+:_,8897:_,8898:_,8899:_,8968:{dir:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,
+x],[2100,T],[2400,N],[3e3,C]],stretch:{ext:[9122,k],top:[9121,k]}},8969:{dir:O,HW
+:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3,C]],stretch:
+{ext:[9125,k],top:[9124,k]}},8970:{dir:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800
+,x],[2100,T],[2400,N],[3e3,C]],stretch:{bot:[9123,k],ext:[9122,k]}},8971:{dir:O,HW
+:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3,C]],stretch:
+{bot:[9126,k],ext:[9125,k]}},9001:{dir:O,HW:[[1e3,k],[1100,w],[1200,E],[1450,S],[1800
+,x],[2100,T],[2400,N],[3e3,C]]},9002:{dir:O,HW:[[1e3,k],[1100,w],[1200,E],[1450,S
+],[1800,x],[2100,T],[2400,N],[3e3,C]]},9130:{dir:O,HW:[[748,k]],stretch:{ext:[9130
+,k]}},9135:{alias:773,dir:A},9136:{dir:O,HW:[[750,k,null,9127]],stretch:{top:[9127
+,k],ext:[9130,k],bot:[9133,k]}},9137:{dir:O,HW:[[750,k,null,9131]],stretch:{top:[9131
+,k],ext:[9130,k],bot:[9129,k]}},9140:M,9141:M,9168:{dir:O,HW:[[1e3,l,null,124],[1309
+,l,1.309,124],[1771,l,1.771,124],[2233,l,2.233,124],[2695,l,2.695,124]],stretch:{
+ext:[124,l]}},9180:M,9181:M,9182:{dir:A,HW:[[492,l],[993,w],[1494,E],[1996,S],[2498
+,x],[3e3,T],[3502,N],[4006,C]],stretch:{left:[57613,C],rep:[57614,C],mid:[57615,C
+],right:[57616,C]}},9183:{dir:A,HW:[[492,l],[993,w],[1494,E],[1996,S],[2498,x],[3e3
+,T],[3502,N],[4006,C]],stretch:{left:[57617,C],rep:[57618,C],mid:[57619,C],right:
+[57620,C]}},9184:M,9185:M,9472:{alias:773,dir:A},10145:M,10214:_,10215:_,10216:{dir
+:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3,C]]},10217
+:{dir:O,HW:[[1e3,l],[1100,w],[1200,E],[1450,S],[1800,x],[2100,T],[2400,N],[3e3,C]
+]},10218:_,10219:_,10222:{dir:O,HW:[[1024,l],[1126,w],[1228,E],[1482,S],[1836,x],
+[2140,T],[2444,N],[3052,C]],stretch:{bot:[57601,C],ext:[57602,C],top:[57603,C]}},10223
+:{dir:O,HW:[[1024,l],[1126,w],[1228,E],[1482,S],[1836,x],[2140,T],[2444,N],[3052,
+C]],stretch:{bot:[57604,C],ext:[57605,C],top:[57606,C]}},10229:{alias:8592,dir:A}
+,10230:{alias:8594,dir:A},10231:{alias:8596,dir:A},10232:{alias:8656,dir:A},10233
+:{alias:8658,dir:A},10234:{alias:8660,dir:A},10235:{alias:8612,dir:A},10236:{alias
+:8614,dir:A},10237:{alias:10502,dir:A},10238:{alias:10503,dir:A},10502:{dir:A,HW:
+[[879,o],[1325,w]],stretch:{left:[57541,C],rep:[57542,C],right:[57543,C]}},10503:
+{dir:A,HW:[[879,o],[1325,w]],stretch:{left:[57544,C],rep:[57545,C],right:[57546,C
+]}},10752:_,10753:_,10754:_,10755:_,10756:_,10757:_,10758:_,10761:_,10764:_,10769
+:_,11012:M,11013:M,11014:_,11015:_,11020:M,11021:_,11057:M,12296:{alias:10216,dir
+:O},12297:{alias:10217,dir:O},65079:{alias:9182,dir:A},65080:{alias:9183,dir:A}}}
+}),MathJax.Hub.Register.LoadHook(e.fontDir+"/Size7/Regular/Main.js",function(){var t
+;t=e.FONTDATA.DELIMITERS[9182].stretch.rep[0],e.FONTDATA.FONTS[C][t][0]+=200,e.FONTDATA
+.FONTS[C][t][1]+=200,t=e.FONTDATA.DELIMITERS[9183].stretch.rep[0],e.FONTDATA.FONTS
+[C][t][0]+=200,e.FONTDATA.FONTS[C][t][1]+=200}),MathJax.Hub.Register.LoadHook(e.fontDir+"/Size1/Regular/Main.js"
+,function(){e.FONTDATA.FONTS[w][8747][2]-=425,e.FONTDATA.FONTS[w][8748][2]-=425,e
+.FONTDATA.FONTS[w][8749][2]-=425,e.FONTDATA.FONTS[w][8750][2]-=425,e.FONTDATA.FONTS
+[w][8751][2]-=425,e.FONTDATA.FONTS[w][8752][2]-=425,e.FONTDATA.FONTS[w][8753][2]-=425
+,e.FONTDATA.FONTS[w][8754][2]-=425,e.FONTDATA.FONTS[w][8755][2]-=425,e.FONTDATA.FONTS
+[w][10764][2]-=425,e.FONTDATA.FONTS[w][10769][2]-=425}),n.loadComplete(e.fontDir+"/fontdata.js"
+)})(MathJax.OutputJax.SVG,MathJax.ElementJax.mml,MathJax.Ajax,MathJax.Hub);

@@ -3,16 +3,21 @@
 requirejs.config({
 	baseUrl : './',
 	paths : {
-		jquery : 'lib/jquery/dist/jquery.min',
+		jquery : 'lib/jquery/index',
 		mathjax: 'lib/MathJax/MathJax.js?config=TeX-AMS_HTML',
-		enquire: 'lib/enquire/dist/enquire.min'
+		enquire: 'lib/enquire/index'
+	},
+	map: {
+		mathjax: {
+			'MathJax': 'lib/MathJax'
+		}
 	},
 	shim: {
 		jquery: {
 			exports: 'jQuery'
 		},
 		mathjax: {
-			exports: 'MathJax',
+			exports: 'MathJax'
 			// init: function(){
 			// 	MathJax.Hub.Config({
 			// 		jax: ["input/TeX","output/HTML-CSS"],
@@ -71,9 +76,12 @@ requirejs(['enquire', 'jquery', 'mathjax'], function(nq, $, mj){
 			}, 
 
 			setup : function() { //execute once, if screen is not too small 
-				var $titles = $('h1.title');
+				/* collect all that will go in the index */
+				var $titles = $('.title').not('.worked_example h2');
+
+				/* separate what will go on each level */
 				levels.push($titles.filter('h1'));
-				//levels.push($titles.filter('h2'));
+				levels.push($titles.filter('h2').not('.worked_example h2'));
 
 				var $index = $('<section id="index"><h1>Index</h1></section>');
 				var $ol = traverseLevel($titles);

@@ -1,0 +1,185 @@
+/*
+ *  /MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+ *
+ *  Copyright (c) 2009-2015 The MathJax Consortium
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+(function(e,t,n){var r="2.5.0",i="STIXMathJax_Alphabets-bold-italic",s="STIXMathJax_Alphabets-bold"
+,o="STIXMathJax_Alphabets-italic",u="STIXMathJax_Alphabets",a="STIXMathJax_Arrows-bold"
+,f="STIXMathJax_Arrows",l="STIXMathJax_DoubleStruck-bold-italic",c="STIXMathJax_DoubleStruck-bold"
+,h="STIXMathJax_DoubleStruck-italic",p="STIXMathJax_DoubleStruck",d="STIXMathJax_Fraktur-bold"
+,v="STIXMathJax_Fraktur",m="STIXMathJax_Latin-bold-italic",g="STIXMathJax_Latin-bold"
+,y="STIXMathJax_Latin-italic",b="STIXMathJax_Latin",w="STIXMathJax_Main-bold-italic"
+,E="STIXMathJax_Main-bold",S="STIXMathJax_Main-italic",x="STIXMathJax_Main",T="STIXMathJax_Marks-bold-italic"
+,N="STIXMathJax_Marks-bold",C="STIXMathJax_Marks-italic",k="STIXMathJax_Marks",L="STIXMathJax_Misc-bold-italic"
+,A="STIXMathJax_Misc-bold",O="STIXMathJax_Misc-italic",M="STIXMathJax_Misc",_="STIXMathJax_Monospace"
+,D="STIXMathJax_Normal-bold-italic",P="STIXMathJax_Normal-bold",H="STIXMathJax_Normal-italic"
+,B="STIXMathJax_Operators-bold",j="STIXMathJax_Operators",F="STIXMathJax_SansSerif-bold-italic"
+,I="STIXMathJax_SansSerif-bold",q="STIXMathJax_SansSerif-italic",R="STIXMathJax_SansSerif"
+,U="STIXMathJax_Script-bold-italic",z="STIXMathJax_Script-italic",W="STIXMathJax_Script"
+,X="STIXMathJax_Shapes-bold-italic",V="STIXMathJax_Shapes-bold",$="STIXMathJax_Shapes"
+,J="STIXMathJax_Size1",K="STIXMathJax_Size2",Q="STIXMathJax_Size3",G="STIXMathJax_Size4"
+,Y="STIXMathJax_Size5",Z="STIXMathJax_Symbols-bold",et="STIXMathJax_Symbols",tt="STIXMathJax_Variants-bold-italic"
+,nt="STIXMathJax_Variants-bold",rt="STIXMathJax_Variants-italic",it="STIXMathJax_Variants"
+,st="H",ot="V",ut={load:"extra",dir:st},at={load:"extra",dir:ot};e.Augment({FONTDATA
+:{version:r,TeX_factor:1.125,baselineskip:1.2,lineH:.8,lineD:.2,hasStyleChar:!0,FONTS
+:{"STIXMathJax_Alphabets-bold-italic":"Alphabets/BoldItalic/Main.js","STIXMathJax_Alphabets-bold"
+:"Alphabets/Bold/Main.js","STIXMathJax_Alphabets-italic":"Alphabets/Italic/Main.js"
+,STIXMathJax_Alphabets:"Alphabets/Regular/Main.js","STIXMathJax_Arrows-bold":"Arrows/Bold/Main.js"
+,STIXMathJax_Arrows:"Arrows/Regular/Main.js","STIXMathJax_DoubleStruck-bold-italic"
+:"DoubleStruck/BoldItalic/Main.js","STIXMathJax_DoubleStruck-bold":"DoubleStruck/Bold/Main.js"
+,"STIXMathJax_DoubleStruck-italic":"DoubleStruck/Italic/Main.js",STIXMathJax_DoubleStruck
+:"DoubleStruck/Regular/Main.js","STIXMathJax_Fraktur-bold":"Fraktur/Bold/Main.js"
+,STIXMathJax_Fraktur:"Fraktur/Regular/Main.js","STIXMathJax_Latin-bold-italic":"Latin/BoldItalic/Main.js"
+,"STIXMathJax_Latin-bold":"Latin/Bold/Main.js","STIXMathJax_Latin-italic":"Latin/Italic/Main.js"
+,STIXMathJax_Latin:"Latin/Regular/Main.js","STIXMathJax_Main-bold-italic":"Main/BoldItalic/Main.js"
+,"STIXMathJax_Main-bold":"Main/Bold/Main.js","STIXMathJax_Main-italic":"Main/Italic/Main.js"
+,STIXMathJax_Main:"Main/Regular/Main.js","STIXMathJax_Marks-bold-italic":"Marks/BoldItalic/Main.js"
+,"STIXMathJax_Marks-bold":"Marks/Bold/Main.js","STIXMathJax_Marks-italic":"Marks/Italic/Main.js"
+,STIXMathJax_Marks:"Marks/Regular/Main.js","STIXMathJax_Misc-bold-italic":"Misc/BoldItalic/Main.js"
+,"STIXMathJax_Misc-bold":"Misc/Bold/Main.js","STIXMathJax_Misc-italic":"Misc/Italic/Main.js"
+,STIXMathJax_Misc:"Misc/Regular/Main.js",STIXMathJax_Monospace:"Monospace/Regular/Main.js"
+,"STIXMathJax_Normal-bold-italic":"Normal/BoldItalic/Main.js","STIXMathJax_Normal-bold"
+:"Normal/Bold/Main.js","STIXMathJax_Normal-italic":"Normal/Italic/Main.js","STIXMathJax_Operators-bold"
+:"Operators/Bold/Main.js",STIXMathJax_Operators:"Operators/Regular/Main.js","STIXMathJax_SansSerif-bold-italic"
+:"SansSerif/BoldItalic/Main.js","STIXMathJax_SansSerif-bold":"SansSerif/Bold/Main.js"
+,"STIXMathJax_SansSerif-italic":"SansSerif/Italic/Main.js",STIXMathJax_SansSerif:"SansSerif/Regular/Main.js"
+,"STIXMathJax_Script-bold-italic":"Script/BoldItalic/Main.js","STIXMathJax_Script-italic"
+:"Script/Italic/Main.js",STIXMathJax_Script:"Script/Regular/Main.js","STIXMathJax_Shapes-bold-italic"
+:"Shapes/BoldItalic/Main.js","STIXMathJax_Shapes-bold":"Shapes/Bold/Main.js",STIXMathJax_Shapes
+:"Shapes/Regular/Main.js",STIXMathJax_Size1:"Size1/Regular/Main.js",STIXMathJax_Size2
+:"Size2/Regular/Main.js",STIXMathJax_Size3:"Size3/Regular/Main.js",STIXMathJax_Size4
+:"Size4/Regular/Main.js",STIXMathJax_Size5:"Size5/Regular/Main.js","STIXMathJax_Symbols-bold"
+:"Symbols/Bold/Main.js",STIXMathJax_Symbols:"Symbols/Regular/Main.js","STIXMathJax_Variants-bold-italic"
+:"Variants/BoldItalic/Main.js","STIXMathJax_Variants-bold":"Variants/Bold/Main.js"
+,"STIXMathJax_Variants-italic":"Variants/Italic/Main.js",STIXMathJax_Variants:"Variants/Regular/Main.js"
+},VARIANT:{normal:{fonts:[x,_,b,u,k,f,j,et,$,M,it,J]},bold:{fonts:[E,P,d,c,I,g,s,
+N,a,B,Z,V,A,nt,J],bold:!0},italic:{fonts:[S,H,z,h,q,y,o,C,O,rt,J],italic:!0},"bold-italic"
+:{fonts:[w,D,U,l,F,m,i,T,X,L,tt,J],bold:!0,italic:!0},"double-struck":{fonts:[p],
+offsetA:120120,offsetN:120792,remap:{120122:8450,120127:8461,120133:8469,120135:8473
+,120136:8474,120137:8477,120145:8484}},fraktur:{fonts:[v],offsetA:120068,remap:{120070
+:8493,120075:8460,120076:8465,120085:8476,120093:8488}},"bold-fraktur":{fonts:[d]
+,bold:!0,offsetA:120172},script:{fonts:[z],italic:!0,offsetA:119964,remap:{119965
+:8492,119968:8496,119969:8497,119971:8459,119972:8464,119975:8466,119976:8499,119981
+:8475,119994:8495,119996:8458,120004:8500}},"bold-script":{fonts:[U],bold:!0,italic
+:!0,offsetA:120016},"sans-serif":{fonts:[R],offsetA:120224,offsetN:120802,offsetG
+:57725,offsetE:57725},"bold-sans-serif":{fonts:[I],bold:!0,offsetA:120276,offsetN
+:120812,offsetG:120662},"sans-serif-italic":{fonts:[q],italic:!0,offsetA:120328,offsetN
+:57780,offsetG:57791,offsetE:57791},"sans-serif-bold-italic":{fonts:[F],bold:!0,italic
+:!0,offsetA:120380,offsetN:57846,offsetG:120720},monospace:{fonts:[_],offsetA:120432
+,offsetN:120822},"-STIX-Web-variant":{remap:{10887:57360,10888:57359,9651:9653,9661
+:9663},fonts:[it,$,j,x,_,b,u,k,f,et,M,J]},"-tex-caligraphic":{offsetA:57901,noLowerCase
+:1,fonts:[rt,S,H,z,h,q,y,o,C,O,J],italic:!0},"-tex-oldstyle":{offsetN:57953,remap
+:{57954:57957,57955:57961,57956:57965,57957:57969,57958:57973,57959:57977,57960:57981
+,57961:57985,57962:57989},fonts:[it,x,_,b,u,k,f,j,et,$,M,J]},"-tex-caligraphic-bold"
+:{offsetA:57927,noLowerCase:1,fonts:[tt,w,D,U,l,F,m,i,T,X,L,J],italic:!0,bold:!0}
+,"-tex-oldstyle-bold":{offsetN:57953,remap:{57956:57959,57957:57963,57958:57967,57959
+:57971,57960:57975,57961:57979,57962:57983,57963:57987,57964:57991},fonts:[nt,E,P
+,d,c,I,g,s,N,a,B,Z,V,A,J],bold:!0},"-tex-mathit":{fonts:[S,H,z,h,q,y,o,C,O,rt,J],
+italic:!0,noIC:!0},"-largeOp":{fonts:[J,x]},"-smallOp":{}},RANGES:[{name:"alpha",
+low:97,high:122,offset:"A",add:26},{name:"Alpha",low:65,high:90,offset:"A"},{name
+:"number",low:48,high:57,offset:"N"},{name:"greek-non-unicode",low:945,high:969,offset
+:"E",add:25},{name:"greek",low:945,high:969,offset:"G",add:26},{name:"Greek",low:913
+,high:1014,offset:"G",remap:{1013:52,977:53,1008:54,981:55,1009:56,982:57,1012:17
+}}],RULECHAR:9135,REMAP:{12296:10216,12297:10217,10072:8739,755:730,756:714,65079
+:9182,65080:9183},REMAPACCENT:{"~":"̃","→":"⃗","`":"̀","^":"̂","´":"́","′":"́","‵"
+:"̀"},REMAPACCENTUNDER:{},DELIMITERS:{40:{dir:ot,HW:[[.853,x],[1.23,J],[1.35,J,1.098
+],[1.845,K],[2.46,Q],[3.075,G]],stretch:{bot:[57344,Y],ext:[57345,Y],top:[57346,Y
+]}},41:{dir:ot,HW:[[.853,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]]
+,stretch:{bot:[57347,Y],ext:[57348,Y],top:[57349,Y]}},45:{alias:9135,dir:st},47:{
+dir:ot,HW:[[.69,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]]},61:ut,91
+:{dir:ot,HW:[[.818,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]],stretch
+:{bot:[57350,Y],ext:[57351,Y],top:[57352,Y]}},92:{dir:ot,HW:[[.69,x],[1.23,J],[1.35
+,J,1.098],[1.845,K],[2.46,Q],[3.075,G]]},93:{dir:ot,HW:[[.818,x],[1.23,J],[1.35,J
+,1.098],[1.845,K],[2.46,Q],[3.075,G]],stretch:{bot:[57353,Y],ext:[57354,Y],top:[57355
+,Y]}},94:{alias:710,dir:st},95:{alias:9135,dir:st},123:{dir:ot,HW:[[.861,x],[1.23
+,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]],stretch:{bot:[57356,Y],ext:[57357
+,Y],mid:[57358,Y],top:[57359,Y]}},124:{dir:ot,HW:[[.69,x]],stretch:{bot:[124,x],ext
+:[124,x]}},125:{dir:ot,HW:[[.861,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075
+,G]],stretch:{bot:[57360,Y],ext:[57357,Y],mid:[57361,Y],top:[57362,Y]}},126:{alias
+:732,dir:st},175:{alias:9135,dir:st},710:{dir:st,HW:[[.311,x],[.56,J],[.979,K],[1.46
+,Q],[1.886,G],[2.328,Y]]},711:ut,713:{alias:9135,dir:st},717:ut,732:{dir:st,HW:[[.33
+,x],[.56,J],[.979,K],[1.46,Q],[1.886,G],[2.328,Y]]},759:ut,770:{dir:st,HW:[[.311,
+x],[.56,J],[.979,K],[1.46,Q],[1.886,G],[2.328,Y]]},771:{dir:st,HW:[[.33,x],[.56,J
+],[.979,K],[1.46,Q],[1.886,G],[2.328,Y]]},773:{dir:st,HW:[[.5,k],[1,J],[1.5,K],[2
+,Q],[2.5,G],[3,Y]],stretch:{left:[57363,Y],rep:[57363,Y]}},780:{dir:st,HW:[[.311,
+x],[.56,J],[.979,K],[1.46,Q],[1.886,G],[2.328,Y]]},816:{dir:st,HW:[[.33,k],[.56,J
+],[.979,K],[1.46,Q],[1.886,G],[2.328,Y]]},818:{dir:st,HW:[[.5,k],[1,J],[1.5,K],[2
+,Q],[2.5,G],[3,Y]],stretch:{left:[57364,Y],rep:[57364,Y]}},824:{dir:ot,HW:[[.818,
+x],[.553,J],[.662,K],[.818,Q],[.959,G],[1.414,Y]]},8213:{alias:9135,dir:st},8214:
+{dir:ot,HW:[[.879,x]],stretch:{bot:[8214,x],ext:[8214,x]}},8215:{alias:9135,dir:st
+},8254:{dir:st,HW:[[.5,x],[1,J],[1.5,K],[2,Q],[2.5,G],[3,Y]],stretch:{left:[8254,
+x],rep:[8254,x]}},8400:ut,8401:ut,8406:ut,8407:{dir:st,HW:[[.436,x],[.872,J],[1.308
+,K],[1.744,Q],[2.18,G],[3,Y]],stretch:{rep:[57366,Y],right:[57369,Y]}},8417:ut,8428
+:ut,8429:ut,8430:ut,8431:ut,8512:at,8592:{dir:st,HW:[[.786,x]],stretch:{left:[8592
+,x],rep:[9135,et]}},8593:{dir:ot,HW:[[.818,x]],stretch:{ext:[9168,x],top:[8593,x]
+}},8594:{dir:st,HW:[[.786,x]],stretch:{rep:[9135,et],right:[8594,x]}},8595:{dir:ot
+,HW:[[.818,x]],stretch:{bot:[8595,x],ext:[9168,x]}},8596:{dir:st,HW:[[.85,x]],stretch
+:{left:[8592,x],rep:[9135,et],right:[8594,x]}},8597:{dir:ot,HW:[[.954,x]],stretch
+:{bot:[8595,x],ext:[9168,x],top:[8593,x]}},8606:ut,8607:at,8608:ut,8609:at,8612:ut
+,8613:at,8614:ut,8615:at,8616:at,8617:ut,8618:ut,8624:at,8625:at,8626:at,8627:at,8628
+:ut,8629:at,8636:ut,8637:ut,8638:at,8639:at,8640:ut,8641:ut,8642:at,8643:at,8651:
+ut,8652:ut,8656:{dir:st,HW:[[.806,x]],stretch:{left:[8656,x],rep:[57375,Y]}},8657
+:{dir:ot,HW:[[.818,x]],stretch:{ext:[57376,Y],top:[8657,x]}},8658:{dir:st,HW:[[.806
+,x]],stretch:{rep:[57375,Y],right:[8658,x]}},8659:{dir:ot,HW:[[.818,x]],stretch:{
+bot:[8659,x],ext:[57376,Y]}},8660:{dir:st,HW:[[.886,x]],stretch:{left:[8656,x],rep
+:[57375,Y],right:[8658,x]}},8661:{dir:ot,HW:[[.954,x]],stretch:{bot:[8659,x],ext:
+[57376,Y],top:[8657,x]}},8666:ut,8667:ut,8672:ut,8673:at,8674:ut,8675:at,8676:ut,8677
+:ut,8701:ut,8702:ut,8703:ut,8719:at,8720:at,8721:at,8722:{alias:9135,dir:st},8725
+:{alias:47,dir:ot},8730:{dir:ot,HW:[[1.232,x],[1.847,J],[2.46,K],[3.075,Q]],stretch
+:{bot:[57378,Y],ext:[57379,Y],top:[57380,Y]}},8731:at,8732:at,8739:{dir:ot,HW:[[.879
+,x]],stretch:{ext:[8739,x]}},8741:{dir:ot,HW:[[.879,x]],stretch:{ext:[8741,x]}},8747
+:ut,8748:at,8749:at,8750:at,8751:at,8752:at,8753:at,8754:at,8755:at,8896:at,8897:
+at,8898:at,8899:at,8968:{dir:ot,HW:[[.926,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46
+,Q],[3.075,G]],stretch:{ext:[57351,Y],top:[57352,Y]}},8969:{dir:ot,HW:[[.926,x],[1.23
+,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]],stretch:{ext:[57354,Y],top:[57355
+,Y]}},8970:{dir:ot,HW:[[.926,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075
+,G]],stretch:{bot:[57350,Y],ext:[57351,Y]}},8971:{dir:ot,HW:[[.926,x],[1.23,J],[1.35
+,J,1.098],[1.845,K],[2.46,Q],[3.075,G]],stretch:{bot:[57353,Y],ext:[57354,Y]}},9001
+:{alias:10216,dir:ot},9002:{alias:10217,dir:ot},9130:at,9135:{dir:st,HW:[[.315,et
+]],stretch:{rep:[9135,et]}},9136:{dir:ot,HW:[[1.001,Y,null,57402]],stretch:{top:[57359
+,Y],ext:[57357,Y],bot:[57360,Y]}},9137:{dir:ot,HW:[[1.001,Y,null,57403]],stretch:
+{top:[57362,Y],ext:[57357,Y],bot:[57356,Y]}},9140:ut,9141:ut,9168:at,9180:ut,9181
+:ut,9182:{dir:st,HW:[[1,x],[.925,J],[1.46,K],[1.886,Q],[2.328,G],[3.238,Y]],stretch
+:{left:[57393,Y],rep:[57384,Y],mid:[57394,Y],right:[57395,Y]}},9183:{dir:st,HW:[[1
+,x],[.925,J],[1.46,K],[1.886,Q],[2.328,G],[3.238,Y]],stretch:{left:[57396,Y],rep:
+[57387,Y],mid:[57397,Y],right:[57398,Y]}},9184:ut,9185:ut,9472:{alias:8722,dir:st
+},10072:{alias:8739,dir:ot},10098:at,10099:at,10214:at,10215:at,10216:{dir:ot,HW:
+[[.926,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]]},10217:{dir:ot,HW
+:[[.926,x],[1.23,J],[1.35,J,1.098],[1.845,K],[2.46,Q],[3.075,G]]},10218:at,10219:
+at,10222:{dir:ot,HW:[[.853,x]],stretch:{bot:[57344,Y],ext:[57345,Y],top:[57346,Y]
+}},10223:{dir:ot,HW:[[.853,x]],stretch:{bot:[57347,Y],ext:[57348,Y],top:[57349,Y]
+}},10224:at,10225:at,10229:{alias:8592,dir:st},10230:{alias:8594,dir:st},10231:{alias
+:8596,dir:st},10232:{alias:8656,dir:st},10233:{alias:8658,dir:st},10234:{alias:8660
+,dir:st},10235:{alias:8612,dir:st},10236:{alias:8614,dir:st},10237:{alias:10502,dir
+:st},10238:{alias:10503,dir:st},10502:ut,10503:ut,10506:at,10507:at,10514:at,10515
+:at,10574:ut,10575:at,10576:ut,10577:at,10578:ut,10579:ut,10580:at,10581:at,10582
+:ut,10583:ut,10584:at,10585:at,10586:ut,10587:ut,10588:at,10589:at,10590:ut,10591
+:ut,10592:at,10593:at,10624:at,10627:at,10628:at,10629:at,10630:at,10647:at,10648
+:at,10744:{dir:ot,HW:[[1.02,x],[1.845,J]]},10745:{dir:ot,HW:[[1.02,x],[1.845,J]]}
+,10752:at,10753:at,10754:at,10755:at,10756:at,10757:at,10758:at,10759:at,10760:at
+,10761:at,10762:at,10763:at,10764:at,10765:at,10766:at,10767:at,10768:at,10769:at
+,10770:at,10771:at,10772:at,10773:at,10774:at,10775:at,10776:at,10777:at,10778:at
+,10779:at,10780:at,11004:at,11007:at,11077:ut,11078:{dir:st,HW:[[.818,$]],stretch
+:{rep:[57401,Y],right:[11078,$]}},12296:{alias:10216,dir:ot},12297:{alias:10217,dir
+:ot},65079:{alias:9182,dir:st},65080:{alias:9183,dir:st}}}}),MathJax.Hub.Register
+.LoadHook(e.fontDir+"/Main/Regular/Main.js",function(){e.FONTDATA.FONTS[x][8942][0
+]+=400,e.FONTDATA.FONTS[x][8945][0]+=500,e.FONTDATA.FONTS[x][8722][1]+=100,e.FONTDATA
+.FONTS[x][61][1]+=100}),MathJax.Hub.Register.LoadHook(e.fontDir+"/Size5/Regular/Main.js"
+,function(){var t;t=e.FONTDATA.DELIMITERS[9182].stretch.rep[0],e.FONTDATA.FONTS[Y
+][t][0]+=200,e.FONTDATA.FONTS[Y][t][1]+=200,t=e.FONTDATA.DELIMITERS[9183].stretch
+.rep[0],e.FONTDATA.FONTS[Y][t][0]+=200,e.FONTDATA.FONTS[Y][t][1]+=200}),n.loadComplete
+(e.fontDir+"/fontdata.js")})(MathJax.OutputJax["HTML-CSS"],MathJax.ElementJax.mml
+,MathJax.Ajax);
